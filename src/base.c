@@ -16,9 +16,12 @@
 int main(void)
 {
 	puts("!!!Hello World!!!"); /* prints !!!Hello World!!! */
+
 	// Start OS
+	os_setup();
 
 	// find sensors
+	i2c_scan();
 
 	// Find motors
 
